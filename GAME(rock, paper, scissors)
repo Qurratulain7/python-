@@ -1,0 +1,31 @@
+print("E P I C    🪨  📄 ✂️    B A T T L E ")
+print("Select your move(R,P AND S")
+player1 = input( "player 1 >")
+player2 =input("player 2 >")
+if player1 == "R" and player2 == "P":
+  print("player1's Rock is smothered by player2's Paper!")
+  print( "player2 wins!")
+elif player1 == "R" and player2 == "S":
+  print("player1's scissor is smothered by player2's  Rocks")
+  print("player 1 wins")
+elif player1 == "P" and player2 == "R":
+ print("player1's Paper is smothered by player2's Rocks")
+ print("player1 wins")  
+elif player1 == "P" and player2 == "S":
+  print("player1's Paper is smothered by player2's Scissor")
+  print("player2 wins")
+elif player1 == "S" and player2 == "R":
+  print("player1's Scissor is smothered by player2's Rocks")
+elif player1=="S" and player2=="P":
+ print("player1's Scissor is smothered by player2's Paper")
+ print("player1 wins")
+elif player1=="S" and player2=="S":
+   print("TIE")
+elif player1=="R" and player2=="R":
+    print("TIE")
+elif player1=="P" and player2=="P":
+ print("TIE")
+else:
+  print("finish")
+  
+
